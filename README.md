@@ -107,7 +107,6 @@ The system consists of two main parts:
     * **If `StaticDynamic_withServer.py` sends data TO `server.py` (which hosts the WS server):**
         * First, run `python server.py` (ensure Uvicorn is installed).
         * Then, run `python StaticDynamic_withServer.py` (ensure `ip_address_server` in its `send_letter` function points to where `server.py` is running).
-    * *(This backend architecture needs clarification for definitive run instructions).*
 2.  **Ensure Correct IP Addresses:** Verify all WebSocket URLs in the Python and Kotlin files point to the correct IP address of the machine running the WebSocket server(s) on your local network.
 3.  **Run Android Application:** Build and run the app on an Android device connected to the same Wi-Fi network. Navigate to `ChatActivity` or `TranslateActivity`.
 
