@@ -46,8 +46,7 @@ The system consists of two main parts:
         * **Static Mode:** Processes features from the first detected hand (mirrors left hand), feeds to the appropriate static TFLite model (Letter/Sign or Number), and applies debouncing.
         * **Dynamic Mode:** Concatenates features from both hands (92 features/frame), forms a 25-frame sequence, scales it, and feeds it to the LSTM TFLite model.
     * Sends recognized text/data via WebSocket(s) to the Android application.
-        *(Note: The setup seems to involve two WebSocket servers/endpoints: one on port 8001 for general text output to `ChatActivity`, and another on port 8002 for letter+image data to `TranslateActivity` based on `server.py` and the Android clients.)*
-
+      
 2.  **Android Frontend (Kotlin):**
     * Connects as a WebSocket client to the Python backend.
     * `ChatActivity`: Receives recognized text, displays it in a chat interface, and uses TTS.
