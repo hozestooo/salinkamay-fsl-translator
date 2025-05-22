@@ -14,7 +14,6 @@
     * [Running the Real-time Recognition System](#running-the-real-time-recognition-system)
 7.  [Project Structure (Suggested)](#project-structure-suggested)
 8.  [Future Work](#future-work)
-9.  [Team](#team)
 
 ## Introduction
 SalinKamay is a real-time, portable gesture recognition system designed to translate Filipino Sign Language (FSL) into text and speech, aiming to bridge the communication gap between Deaf and Hard-of-Hearing (DHH) individuals and the hearing community in the Philippines. This project utilizes computer vision and machine learning deployed on accessible hardware (Raspberry Pi) with a companion Android application for user interaction. It integrates recognition for both static FSL gestures (like fingerspelling and numbers) and dynamic FSL signs/phrases.
@@ -160,6 +159,3 @@ salinkamay/
 * **Integrate Non-Manual Features:**
     * Incorporate the analysis of non-manual signals (such as facial expressions and body posture), which are crucial components of Filipino Sign Language.
     * This aims to enhance contextual understanding and overall translation accuracy for a richer FSL interpretation.
-## Team
-* BS CPE 4-1 Group 5
-    * Honesto [Your Last Name] *(and other members if applicable)*
